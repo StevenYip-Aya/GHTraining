@@ -19,6 +19,17 @@ In this exercise, you will:
 1. Learn different interaction options to develop and plan with GitHub Copilot.
 1. Use Copilot to summarize and review your pull request.
 
+## Sample application
+
+This repository includes a FastAPI app for browsing and signing up for Mergington High School extracurricular activities. To run it locally:
+
+```bash
+python -m pip install -r requirements.txt
+uvicorn src.app:app --reload
+```
+
+Open [http://localhost:8000](http://localhost:8000) to use the app or [http://localhost:8000/docs](http://localhost:8000/docs) to explore the API.
+
 ### How to start this exercise
 
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
